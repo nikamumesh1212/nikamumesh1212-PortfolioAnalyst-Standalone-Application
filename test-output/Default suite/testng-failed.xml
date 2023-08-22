@@ -3,14 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="portfolioAnalystTestClasses.PortfolioAnalystStandaloneApplicationTest2">
+      <class name="TestClasses.HomePage">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="Closemethod"/>
-          <include name="testCountryIsRequired"/>
+          <include name="closeBrower"/>
+          <include name="Launch"/>
+          <include name="login"/>
+          <include name="mentership"/>
+          <include name="host"/>
+          <include name="jobs"/>
+          <include name="learn"/>
+          <include name="practice"/>
+          <include name="compete"/>
         </methods>
-      </class> <!-- portfolioAnalystTestClasses.PortfolioAnalystStandaloneApplicationTest2 -->
+      </class> <!-- TestClasses.HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
